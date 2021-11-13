@@ -5,6 +5,7 @@ import * as logger from 'morgan';
 
 import { connectServerInDb } from './config/db';
 import { routerUser } from './routes/user';
+import { routerLaunch } from './routes/launch';
 
 // Create app
 export const app = express();
@@ -23,4 +24,4 @@ connectServerInDb();
 
 //Routes
 app.use('/user', routerUser);
-app.use('/', (req, res) => res.send('Dublin API'));
+app.use('/launch', routerLaunch);
