@@ -8,19 +8,19 @@ Dublin foi pensada para ser o seu cofrinho à moda antiga, capaz de salvar usuá
 Dublin was thought to be your old-fashioned piggy bank, capable of saving users and their releases in the vault. Storing the data in postgreSQL in a docker container. Your endpoints respond and receive requests in.json. In addition to DB, the app also runs on a docker container.
 
 ## Endpoints
+![image](https://user-images.githubusercontent.com/83050247/141664370-ef059d0d-e4b0-4289-a7ea-7cacba6b26e6.png)
+![image](https://user-images.githubusercontent.com/83050247/141664379-f2dca1eb-85bf-42bb-9218-234377cbab9e.png)
+![image](https://user-images.githubusercontent.com/83050247/141664412-97be60a2-40ef-47c7-96b2-c8ca08dd1ba9.png)
 
 
 # Tecnologias utilizadas
-## Back end
 - Nodejs
 - orm
 - Typescript
 - Docker
-- Docker-composr
+- Docker-compose
 - git 
 - postgreSQL
-
-- Banco de dados: Postgresql
 
 # Como executar o projeto
 
